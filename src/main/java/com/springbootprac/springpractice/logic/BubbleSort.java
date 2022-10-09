@@ -1,8 +1,11 @@
-package com.springbootprac.javaoop.logic;
+package com.springbootprac.springpractice.logic;
+
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Component
 public class BubbleSort<T extends Comparable<T>> {
 
     public List<T> sort(List<T> list) {
